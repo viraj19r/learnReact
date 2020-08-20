@@ -71,5 +71,11 @@
  - react component should be configurable
 To practice all that we will now create a new react project named - components
 
-
+>Should i always use the css from scratch to design the jsx elements ?
+ - we can use css libraries. Like one of them is *[semantic ui](https://semantic-ui.com/)* form which we can choose our styles, we can either install it or use it with its CDN by linking that to the html file - [semantics cdn](https://cdnjs.com/libraries/semantic-ui) 
   
+>what should i use to insert a image(just to practice) in the react app ?
+>should i always download an image and save it in the main html folder ?
+>how do i practice adding images and all in react app when i don't have any real data ?
+ -  there is a github repo named [Faker.js](https://github.com/marak/Faker.js/) which we can use to generate the fake data to practice the react app.
+ -  command to install faker is - `npm install --save faker`
