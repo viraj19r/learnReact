@@ -79,3 +79,22 @@ To practice all that we will now create a new react project named - components
 >how do i practice adding images and all in react app when i don't have any real data ?
  -  there is a github repo named [Faker.js](https://github.com/marak/Faker.js/) which we can use to generate the fake data to practice the react app.
  -  command to install faker is - `npm install --save faker`
+ -  we also need to import it in our components file.
+ -  To access image we use in the image tag `src="faker.image.avatar()"`, avatar for the type of avatar.
+
+>To make react component reusable what should we do ?
+>How do we create a reusable and configurable component ?
+  - steps to create
+    - first identify the jsx that appears to be duplicated
+    - identify the purpose of that jsx and think of a descriptive name for what it does
+    - create a new file to store this component, file name should be same as of the component.
+    - now create a new component in the file and paste the jsx into it
+    - now make the new component configurable by using React's **props** system
+    > now the question is how do we make the components to use each(to be nested) other as they are now in different files ?
+      - we will create an export statement inside the component's file which we want to use and an import that file and component inside the file where it will be used.
+      - basically the export statement makes that file available for all other files like `export default component name`.
+      - we will import as `import component name from "relative path of file"`, and here in the filename we don't need to add any extension(like .js).
+  
+>What are props(properties) ?
+  - system for passing data from parent component to child component
+  - main goal is to customize or configure a child component
