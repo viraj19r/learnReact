@@ -44,7 +44,7 @@
 >what is difference between `import` and `require` statements ?
   - If we want to use the ES2015 modules then we will use the `import` statement and if we want to use the commonjs modules we will use the `require` statement
 
-
+## React components
 >what is a react component ?
   - In react a component is a function or class that produces html to show the user (using JSX) and handles feedback from user using event handlers
 
@@ -64,7 +64,20 @@
  - Strings,numbers,array
  - we cannot use javascript object it will throw errors --- objects are not valid as a react child. But we can reference to the javascript object value using its property name{object.property} 
  - we can use javascript object in a place where we don't need the values of the object but the whole object, as we use in the style attribute, in style attribute we can reference a object.
-  
+>what is a react component  ?
+ - a component is a function or class that produces html to the user using jsx and handles feedback from user using the event handlers.
+
+
+>what is the difference between the function component and class component?
+>what are hooks and how they are related with function components?
+ - function component can only produce the jsx to show content to the user. on the other hand class component can also use the lifecycle method system to run the code at a specific points of time and can use the state system to update the content on the screen.
+
+ - today the hooks are used along with the function components to run the code at a specific point of time and can use hooks to access state system and update content on the screen. 
+
+>which components are used over the time?
+ - companies with established projects are using class based components
+ - companies with newer projects may be using the function based or class based components
+
 >how to use react components ?
  - react component should can be nested if required
  - react component should be reusable 
@@ -94,7 +107,9 @@ To practice all that we will now create a new react project named - components
       - we will create an export statement inside the component's file which we want to use and an import that file and component inside the file where it will be used.
       - basically the export statement makes that file available for all other files like `export default component name`.
       - we will import as `import component name from "relative path of file"`, and here in the filename we don't need to add any extension(like .js).
-  
+## React properties or props
 >What are props(properties) ?
   - system for passing data from parent component to child component
   - main goal is to customize or configure a child component
+
+## React state
