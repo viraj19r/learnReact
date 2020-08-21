@@ -113,3 +113,20 @@ To practice all that we will now create a new react project named - components
   - main goal is to customize or configure a child component
 
 ## React state
+- only usable with class component. state is a javascript object that contain data relevant to a component. It must be initialized when a component is created.
+- State can be updated using the function useState
+- updating the component will   cause the component to instantly re-render.
+- state is different from props
+
+
+## React component Lifecycle
+- adding, updating and removing elements from a component is its lifecycle we usually define it in three keywords- Mounting, Updating, Unmounting.
+- corresponding three functions are also used - componentDidMount, componentDidUpdate,componentWillUnmount. These functions are automatically called as their name indicates
+- there are three more functions but we will not use them(shouldComponentUpdate,getDerivedStateFromProps,getSnapshotBeforeUpdate)
+
+> what are the roles of these many functions inside the class component ?
+ - constructor function is good place to do one time setup(like initializing state)
+ - render function is only use to render jsx data
+ - componentDidMount is good place to do data loading(like calling an api and getting geolocation)
+ - componentDidUpdate is good place to do more data loading when state and props change(like making a network request)
+ - componentWillUnmount is good place to do cleanup(specially for non react stuff)
