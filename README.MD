@@ -130,3 +130,4 @@ To practice all that we will now create a new react project named - components
  - componentDidMount is good place to do data loading(like calling an api and getting geolocation)
  - componentDidUpdate is good place to do more data loading when state and props change(like making a network request)
  - componentWillUnmount is good place to do cleanup(specially for non react stuff)
+
