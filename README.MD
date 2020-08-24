@@ -131,3 +131,6 @@ To practice all that we will now create a new react project named - components
  - componentDidUpdate is good place to do more data loading when state and props change(like making a network request)
  - componentWillUnmount is good place to do cleanup(specially for non react stuff)
 
+>How can we use api or how can we call apis and handle requests from apis ?
+ - we can use two things to handle so - axios(a third party package) or fetch(a built in method/function in all modern browsers)
+ - but we will use the axios the most because its a third party package that provide many features. to install it in our project we run the command in our react app folder `npm install --save axios`
