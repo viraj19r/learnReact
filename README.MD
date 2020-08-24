@@ -134,3 +134,8 @@ To practice all that we will now create a new react project named - components
 >How can we use api or how can we call apis and handle requests from apis ?
  - we can use two things to handle so - axios(a third party package) or fetch(a built in method/function in all modern browsers)
  - but we will use the axios the most because its a third party package that provide many features. to install it in our project we run the command in our react app folder `npm install --save axios`
+
+
+>what are React Ref's(references)?
+ - gives access to a single dom element that is rendered by a component
+ - we create ref's in constructor function, assign them to instance variables, then pass to a particular jsx element as a props.
