@@ -143,3 +143,6 @@ To practice all that we will now create a new react project named - components
 >what is unsplash api?
  - Image api, we can do anything with the images like searching.
  - all we need to do is setting a project on unsplash website and call the api in our react app using axios 
+
+> How make the input fields from uncontrolled to controlled?
+  - we basically hook the input field with state, in this way they can be controlled using the state methods of react and hence are said controlled.
