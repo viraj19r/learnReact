@@ -139,3 +139,7 @@ To practice all that we will now create a new react project named - components
 >what are React Ref's(references)?
  - gives access to a single dom element that is rendered by a component
  - we create ref's in constructor function, assign them to instance variables, then pass to a particular jsx element as a props.
+
+>what is unsplash api?
+ - Image api, we can do anything with the images like searching.
+ - all we need to do is setting a project on unsplash website and call the api in our react app using axios 
