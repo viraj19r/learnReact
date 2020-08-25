@@ -146,6 +146,9 @@ To practice all that we will now create a new react project named - components
 
 > How make the input fields from uncontrolled to controlled?
   - we basically hook the input field with state, in this way they can be controlled using the state methods of react and hence are said controlled.
+### use the youtube api
+- https://console.developers.google.com/apis/credentials?project=videos-project-287507&supportedpurview=project
+- https://developers.google.com/youtube/v3/docs/search/list#apps-script
 
 ## Hooks 
 
@@ -154,4 +157,16 @@ To practice all that we will now create a new react project named - components
  - some function to be used
    - `useState` - function that let us use state in a functional component
    - `useEffect` - function that let us use lifecycle methods in functional component
-   - `useRef` - function that let us create a ref in the functional component    
+   - `useRef` - function that let us create a ref in the functional component 
+ - Primitive Hooks
+   - useEffect
+   - useState
+   - useContext
+   - useReducer
+   - useCallback
+   - useMemo
+   - useRef
+   - useImperativeHandle
+   - useLayoutEffect
+   - useDebugValue
+ - using these hooks we will also write our **custom hook**  
