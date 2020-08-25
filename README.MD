@@ -159,14 +159,14 @@ To practice all that we will now create a new react project named - components
    - `useEffect` - function that let us use lifecycle methods in functional component
    - `useRef` - function that let us create a ref in the functional component 
  - Primitive Hooks
-   - useEffect
-   - useState
-   - useContext
-   - useReducer
-   - useCallback
-   - useMemo
-   - useRef
-   - useImperativeHandle
-   - useLayoutEffect
-   - useDebugValue
+   - `useEffect`
+   - `useState`
+   - `useContext`
+   - `useReducer`
+   - `useCallback`
+   - `useMemo`
+   - `useRef`
+   - `useImperativeHandle`
+   - `useLayoutEffect`
+   - `useDebugValue`
  - using these hooks we will also write our **custom hook**  
