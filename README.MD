@@ -146,3 +146,12 @@ To practice all that we will now create a new react project named - components
 
 > How make the input fields from uncontrolled to controlled?
   - we basically hook the input field with state, in this way they can be controlled using the state methods of react and hence are said controlled.
+
+## Hooks 
+
+>what are hooks ?
+ - hooks are a way to write reusable code, instead of more classic techniques like inheritance
+ - some function to be used
+   - `useState` - function that let us use state in a functional component
+   - `useEffect` - function that let us use lifecycle methods in functional component
+   - `useRef` - function that let us create a ref in the functional component    
