@@ -156,11 +156,23 @@ To practice all that we will now create a new react project named - components
  - hooks are a way to write reusable code, instead of more classic techniques like inheritance
  - some function to be used
    - `useState` - function that let us use state in a functional component
+
+
    - `useEffect` - function that let us use lifecycle methods in functional component
+      -  first argument here will be an arrow function and second argument is an optional array.
+      -  if the array is empty then the function(first argument) will run only after initial render
+      -  if there is no second argument then it will run for the first and all other successive renderers 
+      -  if the array contain any data then it will run for the first renderer and run after every renderer if data has changed since last render. This array can have multiple argument inside it.
+      -  we cannot use the `async await` for the the function which is first argument. It will through errors. to use that we have three ways
+        - we can define a another function(which is referencing a variable) or helper function inside it and mark that with `async await` and just after that function we can call it.(it is recommended method by browser and react)
+        - we can use immediately invoked function inside it(which is invoked immediately after declaring it)
+        - using normal promises by chaining `then`
+
+
    - `useRef` - function that let us create a ref in the functional component 
  - Primitive Hooks
-   - `useEffect`
    - `useState`
+   - `useEffect` - can detect the change in the state or re-rendering the component
    - `useContext`
    - `useReducer`
    - `useCallback`
