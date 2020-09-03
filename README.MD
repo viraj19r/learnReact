@@ -182,3 +182,31 @@ To practice all that we will now create a new react project named - components
    - `useLayoutEffect`
    - `useDebugValue`
  - using these hooks we will also write our **custom hook**  
+
+
+### Deploying react project
+we can deploy our react project using **vercel** or **netlify**
+
+
+
+## Redux 
+>what is Redux ?
+- It is a javascript library for managing application state
+- It makes creating complex application easier
+
+>What is Redux Cycle ?
+It is basically the sequential chart of the steps that redux uses.
+
+Action creator ---> action --> dispatch --> reducers --> state
+
+- Action creator is a function that creates and return a plain javascript object
+- This plain object is considered as action
+- now the dispatch function takes the action object and make copies of the object and passes them off to the different places that required them inside our project - Reducers(functions). Now the reducers handles what to do with the data under different departments. Reducers are basically created on the basis of different departments required. Reducers(reduce the data as the name suggests) are function that at the end inspect the data, to be stored or deleted under the provided conditions.
+- then the reducer create a central repository for all the data - named state, and store them there so that our whole application can access complete data at one place(not ask the reducers for data)
+
+* To use react in redux a separate [library](https://react-redux.js.org/introduction/quick-start) is made named - **React-Redux**
+
+>How to install and use redux in our react app ?
+  - to use react-redux in library in our react app we first need to install redux library using `npm install redux ` or `yarn add redux`
+  - and then install react-redux library as `npm install react-redux` or `yarn add react-redux`
+  - or we can do it in one command as `npm install --save redux react-redux`
